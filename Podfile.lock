@@ -1,0 +1,21 @@
+PODS:
+  - MyPod (0.1.0)
+  - MyStaticPod (0.1.0)
+
+DEPENDENCIES:
+  - MyPod (from `lib/MyPod`)
+  - MyStaticPod (from `lib/MyStaticPod`)
+
+EXTERNAL SOURCES:
+  MyPod:
+    :path: lib/MyPod
+  MyStaticPod:
+    :path: lib/MyStaticPod
+
+SPEC CHECKSUMS:
+  MyPod: 250f8350249f12e26503933ba2b363992d26dbae
+  MyStaticPod: 0c28481f216483d33ef03189eb32ccdccb9e3659
+
+PODFILE CHECKSUM: 6d5c6552356ce8b6df336bc6431d533844aa89ef
+
+COCOAPODS: 1.8.4
